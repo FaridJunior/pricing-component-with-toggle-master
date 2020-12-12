@@ -20,7 +20,7 @@
     <title>Frontend Mentor | [Challenge Name Here]</title>
     <style>
       .attribution {
-        margin-top: 10rem;
+        margin-top: 16rem;
         font-size: 1rem;
         text-align: center;
       }
@@ -31,38 +31,50 @@
   </head>
   <body>
     <section class="pricing__section">
-      <header>
-        <h1>Our Pricing</h1>
-        Annually
-        <label class="switch">
-          <input type="checkbox" />
-          <span class="slider round"></span>
-        </label>
-        Monthly
-      </header>
-      <div class="plans__wrapper">
-        <div class="plan__wrapper">
-          <h2 class="plan__name">Basic</h2>
-          <span class="plan__price"> &dollar; </span>
-          <p class="plan__quote">500 GB Storage</p>
-          <p class="plan__quote">2 Users Allowed</p>
-          <p class="plan__quote">Send up to 3 GB</p>
-          <button class="learn__more__btn">Learn More</button>
-        </div>
-        <div class="plan__wrapper">
-          <h2 class="plan__name">Professional</h2>
-          <span class="plan__price"> &dollar; </span>
-          <p class="plan__quote">1 TB Storage</p>
-          <p class="plan__quote">5 Users Allowed</p>
-          <p class="plan__quote">Send up to 10 GB</p>
-          <button class="learn__more__btn">Learn More</button>
-        </div>
-        <div class="plan__wrapper">
-          <h2 class="plan__name">Master</h2>
-          <p class="plan__quote">2 TB Storage</p>
-          <p class="plan__quote">10 Users Allowed</p>
-          <p class="plan__quote">Send up to 20 GB</p>
-          <button class="learn__more__btn">Learn More</button>
+      <div class="container">
+        <header>
+          <h1 class="page__header">Our Pricing</h1>
+          <span class="plan__timeing"> Annually </span>
+          <label class="switch">
+            <input type="checkbox" id="plan-timeing-mounthly" />
+            <span class="slider round"></span>
+          </label>
+          <span class="plan__timeing"> Monthly </span>
+        </header>
+        <div class="plans__wrapper">
+          <div class="plan__wrapper">
+            <h2 class="plan__name">Basic</h2>
+            <h3 class="plan__price">
+              <span class="dollar__sign">&dollar;</span>
+              <span id="price__value"></span>
+            </h3>
+            <p class="plan__quote">500 GB Storage</p>
+            <p class="plan__quote">2 Users Allowed</p>
+            <p class="plan__quote">Send up to 3 GB</p>
+            <button class="learn__more__btn">Learn More</button>
+          </div>
+          <div class="plan__wrapper">
+            <h2 class="plan__name">Professional</h2>
+            <h3 class="plan__price">
+              <span class="dollar__sign">&dollar;</span>
+              <span id="price__value"></span>
+            </h3>
+            <p class="plan__quote">1 TB Storage</p>
+            <p class="plan__quote">5 Users Allowed</p>
+            <p class="plan__quote">Send up to 10 GB</p>
+            <button class="learn__more__btn">Learn More</button>
+          </div>
+          <div class="plan__wrapper">
+            <h2 class="plan__name">Master</h2>
+            <h3 class="plan__price">
+              <span class="dollar__sign">&dollar;</span>
+              <span id="price__value"></span>
+            </h3>
+            <p class="plan__quote">2 TB Storage</p>
+            <p class="plan__quote">10 Users Allowed</p>
+            <p class="plan__quote">Send up to 20 GB</p>
+            <button class="learn__more__btn">Learn More</button>
+          </div>
         </div>
       </div>
     </section>
@@ -71,7 +83,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://twitter.com/mfarid_se">Mohamed Farid</a>.
     </div>
   </body>
   <script src="./script.js"></script>

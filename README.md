@@ -1,4 +1,4 @@
-# Frontend Mentor - File Transfer pricing component
+# Frontend Mentor - File Transfer pricing component [Preview](https://pricing-component-with-toggle-master-gamma.vercel.app/)
 
 ![Design preview for the File Transfer pricing component coding challenge](./design/desktop-preview.jpg)
 
