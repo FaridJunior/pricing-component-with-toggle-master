@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const planPrices = document.querySelectorAll("#price__value");
+  const planPrices = document.querySelectorAll(".price__value");
   const planTimeingMounthly = document.getElementById("plan-timeing-mounthly");
   const mounthlyPrices = [19.99, 24.99, 39.99];
   const yearPrices = [199.99, 249.99, 399.99];

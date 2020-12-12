@@ -40,11 +40,11 @@ body {
 }
 .container {
   width: 90%;
-  margin: 8rem auto;
+  margin: 7rem auto;
 }
 .page__header {
-  font-size: 3rem;
-  margin-bottom: 2em;
+  font-size: 2rem;
+  margin-bottom: 1em;
   color: var(--grayish-blue);
 }
 .plan__timeing {
